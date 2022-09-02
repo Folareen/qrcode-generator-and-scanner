@@ -17,7 +17,7 @@ export default class Header extends Component {
     }
 
     return (
-      <Flex w={'100%'} bg={'blue.300'} boxShadow={'2px 2px 2px rgba(0, 0, 0, .5)'}>
+      <Flex w={'100%'} bg={'blue.300'} boxShadow={'0 2px 2px rgba(0, 0, 0, .5)'}>
           <Link as={RouterLink} to={'/'} flex={1} p={4} display={'block'} px={8}  color={'white'} fontWeight={'bold'} borderRight={'2px'}>
               Homepage
           </Link>
